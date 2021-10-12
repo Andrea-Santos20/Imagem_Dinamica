@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon icone2.ico" type="image/x-icon">
+    <title>Dimanica em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+
+    <picture>
+        <source media="(max-width:750px )" srcset="imagens/filhos-p.jpg" type="image/jpg">
+        <source media="(max-width:1050px)" srcset="imagens/filhos-m.jpg" type="image/jpg">
+        <img src="imagens/filhos-g.jpg" alt="Imagem flexível">
+    </picture>
+</body>
+</html>
